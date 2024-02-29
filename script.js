@@ -58,7 +58,6 @@ function cursor() {
         })
 
 
-        // document.querySelector(".cursor").style.transform = `translate(${dets.clientX}px, ${dets.clientY}px)`;
     })
 
     main.addEventListener("mouseenter",function(){
@@ -95,77 +94,6 @@ function menu(){
         })
         
     })
-
-    // menu.addEventListener("mouseenter",function(){
-    //     gsap.to(".cursor",{
-    //         scale:3,
-
-    //     })
-        
-    // })
-
-    // menu.addEventListener("mouseleave",function(){
-    //     gsap.to(".cursor",{
-    //         scale:1,
-
-    //     })
-        
-    // })
-
-    // logo.addEventListener("mouseenter",function(){
-    //     gsap.to(".cursor",{
-    //         scale:3,
-
-    //     })
-        
-    // })
-
-    // logo.addEventListener("mouseleave",function(){
-    //     gsap.to(".cursor",{
-    //         scale:1,
-
-    //     })
-        
-    // })
-
-    
-    // year.addEventListener("mouseenter",function(){
-    //     gsap.to(".cursor",{
-    //         scale:3,
-
-    //     })
-        
-    // })
-
-    // year.addEventListener("mouseleave",function(){
-    //     gsap.to(".cursor",{
-    //         scale:1,
-
-    //     })
-        
-    // })
-
-    // button.addEventListener("mouseenter",function(){
-    //     gsap.to(".cursor",{
-    //         scale:2,
-
-    //     })
-        
-    // })
-
-    // button.addEventListener("mouseleave",function(){
-    //     gsap.to(".cursor",{
-    //         scale:1,
-
-    //     })
-        
-    // })
-
-
-
-    
-    
-
 
 }
 

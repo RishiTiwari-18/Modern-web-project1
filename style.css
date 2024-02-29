@@ -344,5 +344,110 @@ html,body{
 }
     
 
+@media (max-width: 600px) {
+    .nav{
+        height: 50px;
+        width: 100%;
+        padding: 3vw 4vw;
+    }
+
+    .nav h1{
+        display: none;
+    }
+    .cursor{
+        display: none;
+    }
+
+    .nav a{
+        font-size: 6vw;
+    }
+
+    .heading h1{
+        font-size: 16vw;
+        margin-left: 3vw;
+    }
+
+    .heading #sec{
+        margin-left: 60px;
+    }
+
+    .footer{
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 4vw;
+        line-height: 10vw;        
+    }
+    .heading h5{
+        font-size: 2.5vw;
+        margin-top: 5px;
+    }
+
+    .smheading{
+        padding: 0 4vw;
+    }
+
+    .smheading h1{
+        font-size: 3vw;
+        line-height: 2.5;
+       
+    }
+
+    .page2{
+        margin-top: 0px;
+        padding: 0 4vw;
+        height: 55vh;
+    }
+    
+    .elem h1{
+        font-size: 13vw;
+    }
+    .elem h5{
+        font-size: 2.5vw;
+    }
+
+    .page3{
+        height: 100%;
+        padding: 0 4vw;
+        padding-left: 0vw;
+        flex-direction: column;
+    }
+    .page3 img{
+        margin-bottom: 10vw;
+    }
+
+    .text{
+        width: 100%;
+        margin-left: 0px;
+        padding: 0 4vw;
+       
+    }
+    .text h4{
+        margin-bottom: 3vw;
+    }
+
+    .page4{
+        height: 50vh;
+        padding: 20vw 4vw;
+        padding-bottom: 0;
+        
+    }
+    .leg{
+        flex-direction: column;
+    }
+    .leg div{
+        margin-bottom: 6vw;
+    }
+    .leg .div2{
+        gap: 8vw;
+    }
+ 
+}
+    
+
+
+
+
+
+
 
 
